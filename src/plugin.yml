@@ -1,0 +1,20 @@
+name: EhVanish
+version: "1.0"
+author: Nirewen
+description: Esconde você de outros jogadores
+main: net.ehaqui.ehvanish.Main
+api-version: "1.13"
+depend: [EhCore]
+
+commands:
+  vanish:
+    aliases: [v]
+    description: Habilita o modo invisível
+    permission: ehcore.vanish.use
+    permission-message: §2§lEh§3§lAqui§7 - §cVocê não pode executar este comando.
+
+permissions:
+  ehcore.vanish.bypass:
+    default: op
+  ehcore.vanish.use:
+    default: op
